@@ -1,0 +1,113 @@
+* {
+    margin: auto; 
+    font-family: sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    align-items: center;
+    object-fit: cover;
+}
+
+#profile {
+    box-sizing: border-box;
+    float: left;
+    background-color: aqua;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    object-fit: cover;
+}
+.Bio{
+    text-align: center;
+    
+}
+.Connect{
+    color: rgb(242, 247, 248);
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+.connect :hover{
+    font-weight: bold;
+    background-color: burlywood;
+    color: darkred;
+}
+.right{
+    background-color: dodgerblue;
+    height: 100vh;
+    width: 75%;
+    float: left;
+}
+div nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+    color: rgb(243, 242, 242);
+    margin: 5px;
+    padding: 8px;
+}
+ul li {
+    float: left;
+    list-style: none;
+    display: block;
+    font-size :17px ;
+}
+ul li a {
+    color: rgb(248, 252, 244);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+ul li a:hover{
+    color: rgb(168, 14, 14);
+    background-color: rgb(183, 189, 189);
+    border-radius: 10px;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+#Info {
+    height: 91vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+.About{
+    margin: 30px 10px;
+    background-color: rgb(47, 216, 47);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+    padding: 10px;
+}
+.Resume{
+    margin: 10px 10px;
+    background-color: rgb(32, 137, 145);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+    padding: 10px;
+}
+.Projects{
+    margin: 30px 10px;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(47, 216, 47);
+    padding: 10px;
+}
